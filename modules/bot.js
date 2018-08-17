@@ -18,7 +18,6 @@ const bot = {
                 json: true
             };
             request(options, function (error, response, body) {
-                console.log(config);
                 if (error) throw new Error(error);
             });
         }
